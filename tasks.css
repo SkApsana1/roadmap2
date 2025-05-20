@@ -1,18 +1,26 @@
 *{
-    margin: 0;
+    margin: 500;
     padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
 }
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  max-width: 50%;
   
 }
 
 .card{
     height: 50px;
     width: 50vw;
-    box-shadow: 1px 3px 10px black;
+    width: 200px;
+    box-shadow: 1px 3px 10px rgb(42, 40, 40);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,10 +33,10 @@ a{
   font-style: oblique;
 }
 .card-odd {
-  background-color: rgb(34, 36, 36);
+  background-color: rgb(91, 148, 148);
   align-self: flex-end;
 }
 .card-even {
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(226, 201, 201);
   align-self: flex-start;
 }
