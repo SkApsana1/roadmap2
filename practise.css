@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+.header{
+    margin-top: 20px;
+}
+.navbar{
+    position: relative;
+    
+    border-bottom: 1px;
+}
+.navbar .tooltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index:1;
+}
+.navbar:hover .tooltip{
+    visibility: visible;
+    gap: -100px;
+    
+
+}
