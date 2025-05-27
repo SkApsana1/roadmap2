@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabsGroup">
+            <div class="tabs active" onclick="openTab(this,'content1')">HTML</div>
+            <div class="tabs" onclick="openTab(this,'content2')">CSS</div>
+            <div class="tabs" onclick="openTab(this,'content3')">JavaScript</div>
+        </div>
+       <div class="contentsGroup">
+        <div class="contents active" id="content1" >
+            <h1>HTML</h1>
+            <P>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It tells the browser how to display text, images, links, and other elements. HTML uses tags, which are keywords enclosed in angle brackets like <p> for paragraphs or <a> for links. Every HTML document starts with a basic structure that includes a <!DOCTYPE html> declaration, a <head> section for metadata, and a <body> section where visible content is placed. Although HTML alone cannot style or animate web pages, it is the backbone that holds all web content together and works closely with CSS and JavaScript to build complete, interactive websites.
+            </P>
+        </div>
+        <div class="contents" id="content2" >
+            <h1>CSS</h1>
+            <p>
+            CSS (Cascading Style Sheets) is a language used to style and design web pages. While HTML structures the content, CSS controls how that content looks—such as colors, fonts, spacing, layout, and animations. It helps make websites more visually appealing and user-friendly. CSS works by selecting HTML elements and applying styles to them. For example, you can use CSS to make text red, center a button, or create responsive layouts that adjust to different screen sizes. CSS can be written directly inside HTML using  tags, inline with the style attribute, or in separate (.css) files that are linked to the HTML document. It plays a vital role in web development by separating design from structure, allowing developers to maintain and update the look of a website more easily.
+            </p>
+        </div>
+        <div class="contents" id="content3" >
+            <H1>JAVA SCRIPT </H1>
+            <p>
+            JavaScript is a programming language that enables interactive features on web pages. It allows developers to create dynamic content, control multimedia, animate images, and much more. JavaScript runs in the browser, making it possible to respond to user actions like clicks, form submissions, and keyboard inputs without needing to reload the page. It can manipulate HTML and CSS, allowing for real-time updates to the content and style of a webpage. JavaScript is essential for building modern web applications and is often used alongside HTML and CSS. It can be included directly in HTML files using
+            script  tags or linked as external .js files. With frameworks like React, Angular, and Vue.js, JavaScript has become even more powerful for creating complex user interfaces and single-page applications.
+            </p>
+       </div>
+
+    </div>
+    <script src="tabs.js"></script>
+</body>
+</html>
