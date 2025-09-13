@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation/Signup</title>
+    <link rel="stylesheet" href="formValidation.css">
+    <script src="formValidation.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>SignUp</h1>
+        <form>
+            <div>
+                <label for="firstname-input">
+                    <img src="person.svg">
+                </label>
+                <input type="text" name="firstname" id="firstname-input" placeholder="Enter Your Name" required>
+            </div>
+            <div>
+                <label for="email-input">
+                    <img src="mail.svg">
+                </label>
+                <input type="email" name="email" id="email-input" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label for="password-input">
+                    <img src="lock.svg">
+                </label>
+                <input type="password" name="password" id="password-input" placeholder="Set Password" required>
+            </div>
+            <div>
+                <label for="repeatPassword">
+                    <img src="lock2.svg">
+                </label>
+                <input type="password" name="password" id="repeatPassword-input" placeholder="Repeat Password" required>
+            </div>
+            <button type="submit">SignUp</button>
+        </form>
+        <p>Already have an Account? <a href="login.html">Login Here</a></p>
+    </div>
+</body>
+</html>

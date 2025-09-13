@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    html{
+        font-family:cursive;
+        font-size: 12pt;
+        text-align: center;
+    }
+    body{
+        min-height: 100vh;
+        background-image: url(bg.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    input{
+        height: 40px;
+        border-radius: 10px;
+        background-color: transparent;
+        width: 250px;
+        
+    }
+    button{
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    button:hover{
+        background-color: rgb(234, 225, 225);
+        font:white
+    }
+    input:hover{
+        border:2px solid rgb(120, 120, 242)
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
